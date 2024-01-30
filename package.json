@@ -1,0 +1,35 @@
+{
+  "name": "vue-tres-starter",
+  "author": "Francesco Michelini<hello@francescomichelini.com>",
+  "type": "module",
+  "engines": {
+    "node": "18"
+  },
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "@tresjs/cientos": "^3.6.0",
+    "@tresjs/core": "^3.6.1",
+    "gsap": "^3.12.5",
+    "pinia": "^2.1.7",
+    "three": "^0.160.1",
+    "vue": "^3.4.15"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.7.0",
+    "@vitejs/plugin-vue": "^5.0.3",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-vue": "^9.20.1",
+    "prettier": "^3.2.4",
+    "vite": "^5.0.12",
+    "vite-plugin-glsl": "^1.2.1"
+  }
+}
